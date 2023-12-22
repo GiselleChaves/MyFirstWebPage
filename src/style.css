@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  background-color: #8a71c9;
+  color: #ffffff;
+}
+
+h2 {
+  color: #2a0074;
+}
+
+.tittle-childhood {
+  color: #04ff9f;
+}
+
+.tittle-youth {
+  color: #ff9e9e;
+}
+
+.tittle-adulthood {
+  color: #ffe36d;
+}
+
+section {
+  max-width: 60%;
+  margin: 0 auto;
+}
