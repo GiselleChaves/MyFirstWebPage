@@ -3,25 +3,55 @@ body {
   font-family: Open Sans, sans-serif;
   background-color: #8a71c9;
   color: #ffffff;
+  margin: 0;
 }
 
-h2 {
+main-hypertext {
+  font-size: 60px;
+}
+
+AdaLovelace-hypertext {
+  font-size: 40px;
+  font-weight: 300;
   color: #2a0074;
 }
 
 .tittle-childhood {
   color: #04ff9f;
+  font-size: 22px;
+  font-style: italic;
 }
 
 .tittle-youth {
   color: #ff9e9e;
+  font-size: 22px;
+  font-style: italic;
 }
 
 .tittle-adulthood {
   color: #ffe36d;
+  font-size: 22px;
+  font-style: italic;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1, 5;
 }
 
 section {
   max-width: 60%;
   margin: 0 auto;
+}
+
+.ada-painting {
+  width: 100%;
+}
+
+.ada-childhood {
+  width: 100%;
+}
+
+.ada-adulthood {
+  width: 100%;
 }
