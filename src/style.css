@@ -10,7 +10,7 @@ main-hypertext {
   font-size: 60px;
 }
 
-AdaLovelace-hypertext {
+.adaLovelace-hypertext {
   font-size: 40px;
   font-weight: 300;
   color: #2a0074;
@@ -40,8 +40,12 @@ p {
 }
 
 section {
-  max-width: 60%;
+  width: 60%;
   margin: 0 auto;
+}
+
+section section {
+  width: 100%;
 }
 
 .ada-painting {
@@ -54,4 +58,37 @@ section {
 
 .ada-adulthood {
   width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.women-in-history a {
+  line-height: 2;
+  padding-left: 0;
+  color: #99ffff;
+  font-weight: 700;
+}
+
+.navigation-links {
+  background-color: #ff6cb5;
+  height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+.navigation-links a {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.navigation-links li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 80px;
 }
