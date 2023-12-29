@@ -5,7 +5,8 @@ document
 function validaFormulario() {
   if (
     document.getElementById("name").value != "" &&
-    document.getElementById("email").value != ""
+    document.getElementById("email").value != "" &&
+    document.getElementById("telephone").value != ""
   ) {
     alert("Pronto! Você receberá as novidades por email.");
   } else {
