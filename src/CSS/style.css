@@ -81,7 +81,7 @@ a {
   max-width: 60%;
   margin: 0 auto;
 }
-.navigation-links a {
+.navigation-links a:hover {
   color: #ffffff;
   font-weight: normal;
   text-decoration: underline;
